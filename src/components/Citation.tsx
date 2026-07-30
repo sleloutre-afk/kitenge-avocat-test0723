@@ -16,7 +16,7 @@ export default function Citation() {
           maxWidth: '680px',
           margin: '0 auto 2rem',
         }}>
-          Changer des vies, défendre des droits — c'est ce qui me lève chaque matin. Que vous dirigiez une entreprise ou que vous fassiez face à une mise en cause pénale, mon rôle est le même : vous défendre avec rigueur, sans ménager mon engagement.
+          Changer des vies, défendre des droits, c'est ça être avocat.
         </p>
         <p style={{ fontSize: '0.62rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'rgba(122,45,58,0.75)' }}>
           Maître Tommy Kitenge
