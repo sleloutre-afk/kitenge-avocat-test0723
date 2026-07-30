@@ -31,8 +31,8 @@ export default function Domaines() {
         </div>
 
         <div style={{
-          background: '#282c35', padding: '3.5rem',
-          display: 'flex', gap: '2.5rem', alignItems: 'flex-start',
+          background: '#282c35', padding: 'clamp(1.5rem, 4vw, 3.5rem)',
+          display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap',
           marginBottom: '1.5rem',
         }}>
           <img src={FEATURED.icon} alt="" aria-hidden style={{ width: '48px', height: '48px', opacity: 0.70, filter: 'brightness(0) invert(1)', flexShrink: 0 }} />
