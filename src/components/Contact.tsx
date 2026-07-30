@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section id="contact" style={{ padding: '7rem 0', background: '#f6f4f1' }}>
       <div className="max-w-6xl mx-auto px-6">
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'start' }}>
+        <div className="grid-2col" style={{ gap: '4rem', alignItems: 'start' }}>
 
           <div>
             <p style={{ fontSize: '0.58rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: '#7a2d3a', marginBottom: '0.8rem' }}>
