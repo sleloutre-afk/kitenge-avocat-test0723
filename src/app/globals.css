@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-charbon: #282c35;
+  --color-charbon-dark: #1e2129;
+  --color-charbon-mid: #363b46;
+  --color-bordeaux: #7a2d3a;
+  --color-bordeaux-light: #9a3d4a;
+  --color-ivoire: #f6f4f1;
+  --color-linen: #edeae5;
+  --color-blanc: #ffffff;
+  --color-texte: #1e2129;
+  --color-muted: #666d7a;
+  --color-divider: #d5d0c8;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: #f6f4f1;
+  color: #1e2129;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes ken-burns {
+  0%   { transform: scale(1.00) translate(0, 0); }
+  50%  { transform: scale(1.06) translate(-1%, 0.5%); }
+  100% { transform: scale(1.00) translate(0, 0); }
+}
+.ken-burns { animation: ken-burns 18s ease-in-out infinite; }
+
+.card-hover { transition: transform 0.22s ease, box-shadow 0.22s ease; }
+.card-hover:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 32px rgba(30,33,41,0.10);
+}
+
+/* Layout utilities */
+.max-w-6xl { max-width: 72rem; }
+.max-w-3xl { max-width: 48rem; }
+.mx-auto   { margin-left: auto; margin-right: auto; }
+.px-6      { padding-left: 1.5rem; padding-right: 1.5rem; }
+.grid      { display: grid; }
+.gap-5     { gap: 1.25rem; }
+.gap-6     { gap: 1.5rem; }
+.block     { display: block; }
+.md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.md\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
