@@ -64,3 +64,11 @@ body {
 @media (max-width: 767px) {
   .stat-sep { border-right: none; border-bottom: 1px solid #d5d0c8; }
 }
+
+/* Navbar responsive */
+.nav-desktop { display: none; align-items: center; }
+.nav-burger  { display: flex; }
+@media (min-width: 768px) {
+  .nav-desktop { display: flex; }
+  .nav-burger  { display: none; }
+}
